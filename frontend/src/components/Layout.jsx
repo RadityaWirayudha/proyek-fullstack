@@ -66,7 +66,7 @@ export default function Layout() {
 
   return (
     <div className="flex min-h-screen">
-      <aside className="w-64 shrink-0 bg-slate-900 text-slate-100 flex flex-col">
+      <aside className="w-64 shrink-0 bg-slate-900 text-slate-100 flex flex-col sticky top-0 h-screen">
         <div className="px-6 py-5 border-b border-slate-800">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-600 text-white text-sm font-bold">
@@ -118,7 +118,7 @@ export default function Layout() {
           </button>
         </div>
       </aside>
-      <main className="flex-1 p-6 lg:p-8 overflow-x-auto animate-fade-in">
+      <main className="flex-1 p-6 lg:p-8 overflow-auto h-screen animate-fade-in">
         <Outlet />
       </main>
     </div>

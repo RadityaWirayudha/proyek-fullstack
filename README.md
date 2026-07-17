@@ -1,6 +1,5 @@
 # Aplikasi Administrasi RT
 
-<<<<<<< HEAD
 Aplikasi administrasi RT untuk mengelola **iuran bulanan**, **pengeluaran operasional**, serta **data penghuni dan rumah** di sebuah perumahan.
 
 | Komponen | Teknologi |
